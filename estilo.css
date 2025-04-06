@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F5E6E8;
+    font-family: 'Inclusive Sans';
+    margin: 5%;
+    line-height: 1.6;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px #2D232E;
+}
+
+header{
+    text-align: center;
+    color:#2D232E;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('./imagenes/opcion1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 5px solid #F5E6E8;
+    box-shadow: 0px 0px 10px;
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.container{
+    background-color:#F08CAE;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #534B52;
+    margin: 5%;
+    box-shadow: 0px 0px 20px #534B52;
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px #f3f3f3;
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #2D232E;
+}
+
+section{
+    background-color: #F5E6E8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px #2D232E;
+
+}
+
+section hr{
+    border:0;
+    height: 2px;
+    background: #534B52;
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+address p{
+    margin: 5px 0;
+}
+
+address a{
+    color: #F08CAE;
+    text-decoration: none;
+}
+
+i{
+    color:#2D232E;
+    margin-right: 8px;
+}
+
+h4{
+    font-size: 1.1em;
+    color: #534B52;
+}
