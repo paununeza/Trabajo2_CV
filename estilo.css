@@ -55,8 +55,8 @@ header h2{
 }
 
 .contenedor_foto_perfil{
-    width: 280px;
-    height: 280px;
+    width: 240px;
+    height: 294px;
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
